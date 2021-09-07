@@ -4,11 +4,11 @@ $username=strtoupper($_POST["username"]); //remove case sensitivity on the usern
 $password=$_POST["password"];
 
 $options = array(
- 'account_suffix' => "@trinity-health.org",
- 'base_dn' => "dc=trinity-health,dc=org",
- 'domain_controllers' => array ("ldap://addir.trinity-health.org"),
- 'ad_username' => 'js224113',
- 'ad_password' => 'pass4tis'
+ 'account_suffix' => "@",
+ 'base_dn' => "",
+ 'domain_controllers' => array (""),
+ 'ad_username' => '',
+ 'ad_password' => ''
  );
 
 
